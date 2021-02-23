@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBlog- Heaven for Bloggers</title>
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <div class="logo">
+                <a href="/"><span>iBlog</span></a>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <form action="search.html" method="GET">
+                    <input class="form-input" type="text" placeholder="Article Search" name="query">
+                    <button class="btn">Search</button>
+                </form>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="search.html" method="GET">
+                <input class="form-input" type="text" placeholder="Article Search" name="query">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="content max-width-1 m-auto">
+        <div class="content-left">
+            <h1>The heaven for bloggers</h1>
+            <p>iBlog is a website which lets you submit an article whcich upon approval will be up on our website and
+                you can get a good amount of reach from here</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nesciunt ab, magnam suscipit id vel
+                reiciendis doloribus similique! Aliquam accusamus vitae laudantium in ratione ea repellendus debitis,
+                sed a placeat vel neque sequi magni minima nam? Provident aut quaerat aliquam nihil veritatis odit
+                dolorum quam!</p>
+        </div>
+        <div class="content-right">
+            <img src="images/home.svg" alt="iBlog">
+        </div>
+    </div>
+    <div class="max-width-1 m-auto mt-20">
+        <hr>
+    </div>
+    <div class="home-articles max-width-1 m-auto font2">
+        <h2>Featured Articles</h2>
+        <div class="year-box">
+            <div class="year">
+                <h3 id="yearToggle">Year▼</h3>
+                <div class="radios none">
+                    <div>
+                        <input type="radio" name="year">2020</input>
+                    </div>
+                    <div>
+                        <input type="radio" name="year">2021</input>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-article" onclick="blogPost()">
+            <div class="home-article-img">
+                <img src="images/img1.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, laboriosam!</h3>
+                <span>Author Name</span>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article" onclick="blogPost()">
+            <div class="home-article-img">
+                <img src="images/home.svg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, laboriosam!</h3>
+                <span>Author Name</span>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article" onclick="blogPost()">
+            <div class="home-article-img">
+                <img src="images/img2.jpeg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, laboriosam!</h3>
+                <span>Author Name</span>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article" onclick="blogPost()">
+            <div class="home-article-img">
+                <img src="images/img3.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, laboriosam!</h3>
+                <span>Author Name</span>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article" onclick="blogPost()">
+            <div class="home-article-img">
+                <img src="images/img1.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, laboriosam!</h3>
+                <span>Author Name</span>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article" onclick="blogPost()">
+            <div class="home-article-img">
+                <img src="images/img2.jpeg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, laboriosam!</h3>
+                <span>Author Name</span>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article" onclick="blogPost()">
+            <div class="home-article-img">
+                <img src="images/img3.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, laboriosam!</h3>
+                <span>Author Name</span>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; iBlog.com</p>
+        <a href="https://www.vecteezy.com/free-vector/typing">Vector Credits: vecteezy</a>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>

@@ -1,0 +1,31 @@
+.post-img img{
+    width: 100%;
+}
+.post-img{
+    height: 400px;
+    overflow: hidden;
+}
+.blog-post{
+    margin-top: 10px;
+}
+.blog-post h1{
+    text-align: center;
+}
+.blog-post p{
+    font-size: 20px;
+}
+.blogpost-meta{
+    display: flex;
+    justify-content: space-between;
+}
+.author-info div{
+    color: gray;
+    font-size: 18px;
+}
+.author-info p{
+    font-weight: bold;
+}
+.social img{
+    width: 60px;
+    cursor: pointer;
+}

@@ -1,0 +1,119 @@
+@media screen and (max-width: 1100px){
+    .nav-left{
+        justify-content: unset;
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
+    .burger{
+        display: block;
+    }
+    .navigation{
+        display: block;
+    }
+    .nav-left ul{
+        display: none;
+    }
+    .nav-left ul form{
+        display: block;
+    }
+    .nav-left ul li{
+        padding: 10px 0px;
+    }
+    .active{
+        position: absolute;
+        display: block !important;
+        top: 95%;
+        height: 100vh;
+        background-color: white;
+        right: -50%;
+        width: 100%;
+        animation: navbar 0.5s ease-in-out;
+    }
+    .navbar{
+        display: block !important;
+    }
+    .line{
+        height: 7px;
+        width: 60px;
+        background-color: var(--main-bg-color);
+        margin: 9px 30px
+    }
+    .nav-right{
+        display: none;
+    }
+    .content-right{
+        display: none;
+    }
+    .content-left{
+        width: 100%;
+    }
+    .home-article{
+        flex-direction: column;
+    }
+    .home-article:hover{
+        cursor: pointer;
+        background-color: white;
+    }
+    .home-article-img{
+        text-align: center;
+    }
+    .home-article-img img{
+        width: 70vw;
+    }
+    .home-article-content{
+        width: 100%;
+    }
+    .year-box{
+        display: flex;
+        top: 25px;
+        left: 60vw;
+    }
+    .year h3{
+        position: relative;
+        color: var(--main-bg-color);
+    }
+    .radios{
+        position: absolute;
+        right: 7%;
+        top: 76%;
+        background-color: white;
+        animation: radios 0.3s ease-in-out;
+    }
+    .radios div{
+        padding: 4px 30px;
+        width: 100%;
+    }
+    .none{
+        display: none;
+    }
+    .form-box input, textarea{
+        border-radius: 5px;
+        width: 66vw;
+    }
+    .max-width-2{
+        max-width: 80vw;
+    }
+    .post-img{
+        height: unset;
+    }
+}
+@keyframes navbar{
+    from{
+        right: -70%;
+    }
+    to{
+        right: -50%;
+    }
+}
+@keyframes radios{
+    from{
+        top: 10%;
+    }
+    to{
+        top: 76%;
+    }
+}
